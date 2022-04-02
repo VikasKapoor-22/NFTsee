@@ -76,11 +76,9 @@ body {
     margin-left: 49px;
 }
 
-.hero-section-bg-image {
-    background: url("../image/png/hero-section-bg-img.png");
-    min-height: 100vh;
-    background-position: center;
-    background-size: cover;
+.hero-section {
+    z-index: -1;
+    right: 0;
 }
 
 /* media query section */
