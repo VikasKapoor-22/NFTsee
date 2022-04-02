@@ -82,3 +82,16 @@ body {
     background-position: center;
     background-size: cover;
 }
+
+/* media query section */
+@media only screen and (min-width:992px) {
+    .fs-lg-xxl {
+        font-size: var(--fs-xxl);
+    }
+}
+
+@media only screen and (max-width:991.98px) {
+    .fs-sm {
+        font-size: var(--fs-sm);
+    }
+}
