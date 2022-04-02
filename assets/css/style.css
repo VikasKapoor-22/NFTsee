@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Josefin+Sans&family=Montserrat:wght@600&family=Poppins:wght@200;300;500;700&family=Roboto:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none !important;
+    list-style-type: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    /* =============================font-sizes======================= */
+    --fs-xxl: 36px;
+    --fs-sm: 18px;
+    /* ==========================font-faimly============================ */
+    --ff-regular: 'Poppins';
+    /* ============================font-weight======================= */
+    --fw-bold: 700;
+    --fw-Semi-Bold: 600;
+    --fw-regular: 400:
+        /* ============================font-colors======================= */
+        --color-primary: #fff;
+    --color-secondary: rgba(0, 0, 0, 1);
+    /* ============================font-colors======================= */
+}
+
+/* =========================Root-define================================ */
+/* =========================font-size================================ */
+.fs-xxl {
+    font-size: var(--fs-xxl);
+}
+
+.fs-sm {
+    font-size: var(--fs-sm);
+}
+
+/* =========================font-weight================================ */
+.fw-bold {
+    font-weight: var(--fw-bold);
+}
+
+.fw-semi-bold {
+    font-weight: var(--fw-Semi-Bold);
+}
+
+.fw-regular {
+    font-weight: var(--fw-regular);
+}
+
+/* =========================font-family================================ */
+.ff-regular {
+    font-family: var(--ff-regular);
+}
+
+/* =========================colors================================ */
+.color-primary {
+    color: var(--color-primary);
+}
+
+.color-secondary {
+    color: var(--color-secondary);
+}
+
+/* =========================Root-define================================ */
+/* -----------------------------common-clases----------------------------- */
+.h-100vh {
+    min-height: 100vh !important;
+}
+
+.navbar-expand-xl .navbar-nav .nav-link {
+    margin-left: 49px;
+}
+
+.hero-section-bg-image {
+    background: url("../image/png/hero-section-bg-img.png");
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
