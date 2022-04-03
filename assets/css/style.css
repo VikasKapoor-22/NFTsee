@@ -22,9 +22,9 @@ body {
     /* ============================font-weight======================= */
     --fw-bold: 700;
     --fw-Semi-Bold: 600;
-    --fw-regular: 400:
-        /* ============================font-colors======================= */
-        --color-primary: #fff;
+    --fw-regular: 400;
+    /* ============================font-colors======================= */
+    --color-primary: #ffffff;
     --color-secondary: rgba(0, 0, 0, 1);
     /* ============================font-colors======================= */
 }
@@ -79,6 +79,13 @@ body {
 .hero-section {
     z-index: -1;
     right: 0;
+}
+
+.arrow-section-bg-image {
+    background: url("../image/png/main-bg-black.png");
+    /* min-height: 100vh; */
+    background-size: cover;
+    background-position: center;
 }
 
 /* media query section */
